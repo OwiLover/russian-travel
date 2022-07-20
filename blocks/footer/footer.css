@@ -1,0 +1,31 @@
+.footer {
+    max-width: 1184px;
+    width: calc(100vw - 4.6875vw);
+    margin: auto;
+    margin-top: 92px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1200px) {
+    .footer {
+        width: calc(100vw - (4.6875vw*2));
+    
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .footer {
+        width: calc(100vw - (3.125vw*2));
+        margin-top: 88px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .footer {
+        flex-direction: column;
+        width: calc(100vw - (5vw*2));
+        margin-top: 64px;
+    }
+}

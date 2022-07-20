@@ -1,0 +1,34 @@
+.cover {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../../images/cover-trains.jpg);
+    background-size: cover;
+    margin: auto;
+    max-width: 1184px;
+    width: 100vw;
+    max-height: 740px;
+    height: calc(100vw * 0.625);
+    margin-top: 92px;
+    z-index: 0;
+}
+
+/* с таким способом задный фон всегда будет затемнён при наведении на блок, однако был использован микс для ссылок, чтобы уменьшить код
+.cover:hover .cover__overlay{
+    opacity: 0.8;
+}
+*/
+
+@media screen and (max-width: 1000px) {
+    .cover {
+       margin-top: 90px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .cover {
+        margin-top: 66px;
+    }
+}

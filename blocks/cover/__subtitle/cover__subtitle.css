@@ -1,0 +1,19 @@
+.cover__subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+    max-width: 360px;
+    margin: 0;
+    margin-top: 32px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 555px) {
+    .cover__subtitle {
+        font-size: 14px;
+        white-space: pre-line; /* как по мне, получился дикий "костыль", однако ничего лучше в интернете я просто не нашёл. Если распределить текст можно как-то иначе, то очень хочу узнать, как*/
+        line-height: 16px;
+        max-width: 288px;
+    }
+}

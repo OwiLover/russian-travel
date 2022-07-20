@@ -1,0 +1,22 @@
+.content {
+    max-width: 1184px;
+    margin: 0 auto;
+}
+/* 
+@media screen and (max-width: 1200px) {
+    .content {
+        max-width: 90.625vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .content {
+        max-width: 93.75vw;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .content {
+        max-width: 90vw;
+    }
+} */

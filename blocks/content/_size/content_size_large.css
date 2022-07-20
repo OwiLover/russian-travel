@@ -1,0 +1,22 @@
+.content_size_large {
+    max-width: 1184px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .content_size_large {
+        max-width: 90.625vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .content_size_large {
+        max-width: 93.75vw;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .content_size_large {
+        max-width: 90vw;
+    }
+}
