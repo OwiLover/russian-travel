@@ -8,7 +8,7 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1084px) {
     .footer {
         width: calc(100vw - (4.6875vw*2));
     
