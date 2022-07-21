@@ -9,11 +9,10 @@
     z-index: 1;
 }
 
-@media screen and (max-width: 555px) {
+@media screen and (max-width: 720px) {
     .cover__subtitle {
         font-size: 14px;
         white-space: pre-line; /* как по мне, получился дикий "костыль", однако ничего лучше в интернете я просто не нашёл. Если распределить текст можно как-то иначе, то очень хочу узнать, как*/
         line-height: 16px;
-        max-width: 288px;
     }
 }
