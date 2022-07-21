@@ -1,9 +1,8 @@
 .place__paragraph {
-    margin: 0;
+    margin: 27px 0 0;
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
-    margin-top: 27px;
 }
 
 .place__paragraph:first-of-type {
@@ -18,12 +17,11 @@
     }
 }
 
-
-@media screen and (max-width: 720px) {
+/* поигравшись с разрешениями не смог добиться идеального показа текста, в итоге всё только ломалось :P */
+/* @media screen and (max-width: 720px) {
     .place__paragraph {
-        white-space: pre-line;
-       /* долго думал, но так и не нашёл, как сделать текст как в фигме при размере 320p :( */
+       max-width: 288px;
     }
-}
+} */
 
 

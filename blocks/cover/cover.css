@@ -1,14 +1,7 @@
 .cover {
     max-width: 1184px;
-    max-height: 740px;
     margin-top: 92px;
 }
-
-/* с таким способом задный фон всегда будет затемнён при наведении на блок, однако был использован микс для ссылок, чтобы уменьшить код
-.cover:hover .cover__overlay{
-    opacity: 0.8;
-}
-*/
 
 @media screen and (max-width: 984px) {
     .cover {

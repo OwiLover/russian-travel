@@ -1,5 +1,6 @@
 .place__url-heading {
-    margin: 0;
+    text-transform: uppercase;
+    margin: 0;   /* напротив этого марджина стоит пустой комментарий, полагаю, опечатка  */
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;

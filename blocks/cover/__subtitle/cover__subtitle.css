@@ -4,15 +4,14 @@
     text-align: center;
     line-height: 22px;
     max-width: 360px;
-    margin: 0;
-    margin-top: 32px;
+    margin: 32px 0 0 0;
     z-index: 1;
 }
 
 @media screen and (max-width: 720px) {
     .cover__subtitle {
         font-size: 14px;
-        white-space: pre-line; /* как по мне, получился дикий "костыль", однако ничего лучше в интернете я просто не нашёл. Если распределить текст можно как-то иначе, то очень хочу узнать, как*/
+        max-width: 260px; /* перебрав все разрешения в диапазоне от 210 до 300 так и не смог найти подходящее, самое близкое при щирине 260px, но всё равно не точно :(  */
         line-height: 16px;
     }
 }

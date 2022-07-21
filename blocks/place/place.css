@@ -29,7 +29,6 @@
         justify-items: center;
         grid-template-columns: minmax(min-content, max-content);
         gap: 32px;
-        margin:0;
         margin-top: 50px;
     }
 }

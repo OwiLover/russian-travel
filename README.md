@@ -2,7 +2,7 @@
 
 ### Обзор
 * Интро
-* Figma
+* Ссылки
 * To Do-List
 
 
@@ -18,10 +18,15 @@
 
 В Фигме размещён макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
 
+## Ссылки
 
-## Figma
+### Figma
 
 * [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+
+### Github Pages
+
+* [Ссылка на страницу сайта в Github Pages](https://owilover.github.io/russian-travel/)
 
 ## To Do-List
 
