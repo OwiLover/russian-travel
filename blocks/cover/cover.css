@@ -11,6 +11,6 @@
 
 @media screen and (max-width: 720px) {
     .cover {
-        margin-top: 66px;
+        margin-top: 66px;  /*в ревью указано, что не правильный отступ между Cover и  Places6 но вроде как 66px, как в макете, так и здесь */
     }
 }
