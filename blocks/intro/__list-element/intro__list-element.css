@@ -1,0 +1,7 @@
+.intro__list-element {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+/* долго думал над названием, сперва была идея назвать __list-bold-item, но такое название показалось крайне перегруженным, надеюсь, __list-element подойдёт */

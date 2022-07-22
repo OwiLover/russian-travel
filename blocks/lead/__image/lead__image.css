@@ -1,19 +1,6 @@
 .lead__image {
-    display: flex;
-    margin: 64px auto 0;
-    max-width: 984px;
     max-height: 615px;
     width: 100%;
 }
 
-@media screen and (max-width: 1080px) {
-    .lead__image {
-        margin-top: 56px;
-    }
-}
 
-@media screen and (max-width: 720px) {
-    .lead__image {
-        margin-top: 40px;
-    }
-}
